@@ -976,7 +976,7 @@ export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null)
-  const [showInstallBanner, setShowInstallBanner] = useState(false)
+  const [showInstallBanner, setShowInstallBanner] = useState(true) // يظهر افتراضياً
   const [isIOS, setIsIOS] = useState(false)
   const [isStandalone, setIsStandalone] = useState(false)
 
@@ -1004,15 +1004,6 @@ export default function Home() {
     const isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as unknown as { MSStream?: boolean }).MSStream
     setIsIOS(isIOSDevice)
 
-    // Check if user dismissed banner before
-    const wasDismissed = localStorage.getItem('pwa-install-dismissed')
-    const wasInstalled = localStorage.getItem('pwa-installed')
-
-    // Don't show if already in standalone mode or was installed
-    if (standalone || wasInstalled) {
-      return
-    }
-
     // Listen for beforeinstallprompt event (Android/Chrome)
     const handleBeforeInstallPrompt = (e: Event) => {
       e.preventDefault()
@@ -1021,16 +1012,8 @@ export default function Home() {
 
     window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
 
-    // Show banner after 2 seconds (or immediately if user hasn't dismissed it)
-    const timer = setTimeout(() => {
-      if (!wasDismissed) {
-        setShowInstallBanner(true)
-      }
-    }, 2000)
-
     return () => {
       window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
-      clearTimeout(timer)
     }
   }, [])
 
@@ -1066,7 +1049,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#1a1a1a] text-[#F5F5DC]" dir="rtl" style={{ fontFamily: "'IBM Plex Sans Arabic', 'IBM Plex Sans', sans-serif" }}>
       {/* PWA Install Banner */}
       <AnimatePresence>
-        {showInstallBanner && !isStandalone && (
+        {showInstallBanner && (
           <motion.div
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
