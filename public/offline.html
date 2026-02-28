@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>غير متصل | كيف الضيافة</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+      background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #F5F5DC;
+    }
+    
+    .container {
+      text-align: center;
+      max-width: 400px;
+    }
+    
+    .icon {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 30px;
+      background: linear-gradient(135deg, #B8860B 0%, #DAA520 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 10px 40px rgba(184, 134, 11, 0.3);
+    }
+    
+    .icon svg {
+      width: 50px;
+      height: 50px;
+      color: #1a1a1a;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #B8860B;
+      font-weight: 700;
+    }
+    
+    p {
+      font-size: 1rem;
+      color: #F5F5DC/70;
+      margin-bottom: 30px;
+      line-height: 1.8;
+      opacity: 0.7;
+    }
+    
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 30px;
+      background: linear-gradient(135deg, #B8860B 0%, #DAA520 100%);
+      color: #1a1a1a;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 1rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 5px 20px rgba(184, 134, 11, 0.3);
+    }
+    
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(184, 134, 11, 0.4);
+    }
+    
+    .btn svg {
+      width: 20px;
+      height: 20px;
+    }
+    
+    .decoration {
+      position: fixed;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(184, 134, 11, 0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    
+    .decoration-1 {
+      top: -50px;
+      right: -50px;
+    }
+    
+    .decoration-2 {
+      bottom: -50px;
+      left: -50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="decoration decoration-1"></div>
+  <div class="decoration decoration-2"></div>
+  
+  <div class="container">
+    <div class="icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18.364 5.636a9 9 0 010 12.728M5.636 18.364a9 9 0 010-12.728" stroke-linecap="round"/>
+        <path d="M15.536 8.464a5 5 0 010 7.072M8.464 15.536a5 5 0 010-7.072" stroke-linecap="round"/>
+        <circle cx="12" cy="12" r="1" fill="currentColor"/>
+      </svg>
+    </div>
+    
+    <h1>غير متصل بالإنترنت</h1>
+    
+    <p>
+      يبدو أنك غير متصل بالإنترنت حالياً.
+      تحقق من اتصالك وحاول مرة أخرى.
+    </p>
+    
+    <a href="/" class="btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      حاول مرة أخرى
+    </a>
+  </div>
+  
+  <script>
+    // التحقق من الاتصال وإعادة التحميل
+    window.addEventListener('online', () => {
+      window.location.reload();
+    });
+  </script>
+</body>
+</html>
