@@ -1,0 +1,231 @@
+{
+  "male": {
+    "id": "male",
+    "title": "الخدمات الرجالية",
+    "subtitle": "Male Hospitality Services",
+    "description": "فريق من المضيفين المحترفين المدربين على أعلى مستوى لتقديم خدمة الضيافة في المناسبات الرجالية والمحافل الرسمية.",
+    "icon": "♦",
+    "heroImage": "https://images.unsplash.com/photo-1610845325460-493f99d21de9?w=1080&q=80",
+    "services": [
+      {
+        "id": "hosts",
+        "name": "مضيفين",
+        "nameEn": "Male Hosts",
+        "description": "فريق من المضيفين المدربين على أعلى المستويات لتقديم خدمات الضيافة في المناسبات الرجالية بأناقة واحترافية.",
+        "image": "https://images.unsplash.com/photo-1610845325460-493f99d21de9?w=1080&q=80",
+        "features": [
+          "استقبال وتوجيه الضيوف",
+          "تقديم القهوة والشاي",
+          "خدمة الطاولات",
+          "التنسيق مع إدارة الفعاليات"
+        ],
+        "outfits": [
+          { "name": "الثوب السعودي الفاخر", "color": "#FFFFFF", "image": "/images/services/male/thobe-white.jpg" },
+          { "name": "الزي الكلاسيكي الرسمي", "color": "#2C2C2C", "image": "/images/services/male/classic-black.jpg" },
+          { "name": "الزي التراثي المميز", "color": "#4A3728", "image": "/images/services/male/traditional.jpg" }
+        ],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة المضيفين الرجاليين لمناسبتي."
+      },
+      {
+        "id": "zamzam",
+        "name": "سقيا زمزم",
+        "nameEn": "Zamzam Water Service",
+        "description": "خدمة تقديم ماء زمزم المبارك بأسلوب راقٍ يعكس القدسية والاحترام في المناسبات الدينية والرسمية.",
+        "image": "https://images.unsplash.com/photo-1670351230643-27f874d17025?w=1080&q=80",
+        "features": [
+          "تقديم ماء زمزم بأواني فاخرة",
+          "خدمة التوزيع على الضيوف",
+          "أكواب مخصصة بطباعة اسم المناسبة",
+          "توزيع عبوات زمزم كهدايا"
+        ],
+        "outfits": [
+          { "name": "الثوب الأبيض التقليدي", "color": "#FFFFFF", "image": "/images/services/male/zamzam-white.jpg" },
+          { "name": "الزي الأنيق المميز", "color": "#1C2840", "image": "/images/services/male/zamzam-navy.jpg" }
+        ],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة سقيا زمزم لمناسبتي."
+      },
+      {
+        "id": "sufarji",
+        "name": "سفرجيه",
+        "nameEn": "Sufarji (Butler Service)",
+        "description": "خدمة السفرجية التقليدية بأسلوب فاخر لتقديم القهوة السعودية والتمر والحلويات بطريقة تراثية أصيلة.",
+        "image": "https://images.unsplash.com/photo-1769812343266-323d6b508f24?w=1080&q=80",
+        "features": [
+          "صب القهوة السعودية التقليدية",
+          "تقديم التمر والحلويات الفاخرة",
+          "خدمة الدلة والفنجان",
+          "إعداد مراسم الضيافة التقليدية"
+        ],
+        "outfits": [
+          { "name": "الزي التراثي السعودي", "color": "#4A3728", "image": "/images/services/male/sufarji-traditional.jpg" },
+          { "name": "الزي الرسمي الفاخر", "color": "#2C2C2C", "image": "/images/services/male/sufarji-formal.jpg" }
+        ],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة السفرجية لمناسبتي."
+      },
+      {
+        "id": "photographer",
+        "name": "سواس صور",
+        "nameEn": "Photo Escort",
+        "description": "مرافقون محترفون لتنظيم وتنسيق جلسات التصوير في المناسبات وضمان التقاط أجمل اللحظات.",
+        "image": "https://images.unsplash.com/photo-1768508951405-10e83c4a2872?w=1080&q=80",
+        "features": [
+          "تنسيق جلسات التصوير",
+          "إدارة حركة الضيوف أثناء التصوير",
+          "التنسيق مع المصور الرسمي",
+          "تجهيز مواقع التصوير"
+        ],
+        "outfits": [
+          { "name": "الزي الرسمي الأنيق", "color": "#1C2840", "image": "/images/services/male/escort-navy.jpg" },
+          { "name": "الزي الكلاسيكي", "color": "#2C2C2C", "image": "/images/services/male/escort-black.jpg" }
+        ],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة سواس الصور لمناسبتي."
+      }
+    ]
+  },
+  "female": {
+    "id": "female",
+    "title": "الخدمات النسائية",
+    "subtitle": "Female Hospitality Services",
+    "description": "مضيفات متميزات يجمعن بين الأناقة والاحترافية لتقديم تجربة ضيافة راقية في المناسبات النسائية والفعاليات الفاخرة.",
+    "icon": "◈",
+    "heroImage": "https://images.unsplash.com/photo-1686545232018-bf8d11a36124?w=1080&q=80",
+    "services": [
+      {
+        "id": "hostesses",
+        "name": "مضيفات",
+        "nameEn": "Female Hostesses",
+        "description": "فريق من المضيفات المتميزات المدربات على أعلى مستوى من الأناقة والاحترافية لخدمة المناسبات النسائية.",
+        "image": "https://images.unsplash.com/photo-1686545232018-bf8d11a36124?w=1080&q=80",
+        "features": [
+          "استقبال وتوجيه الضيفات",
+          "تقديم المشروبات والحلويات",
+          "إدارة طاولات العرض والتقديم",
+          "التنسيق مع منظمي الفعالية",
+          "خدمة VIP للضيفات الخاصات"
+        ],
+        "outfits": [
+          { "name": "العباءة الفاخرة الكلاسيكية", "color": "#1a1a1a", "image": "/images/services/female/abaya-black.jpg" },
+          { "name": "الزي الخليجي الأنيق", "color": "#3D2B1F", "image": "/images/services/female/khaliji-elegant.jpg" },
+          { "name": "الزي الرسمي الراقي", "color": "#2C1A3A", "image": "/images/services/female/formal-purple.jpg" },
+          { "name": "العباءة البيضاء الفاخرة", "color": "#F5F5DC", "image": "/images/services/female/abaya-white.jpg" }
+        ],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة المضيفات لمناسبتي النسائية."
+      }
+    ]
+  },
+  "other": {
+    "id": "other",
+    "title": "الخدمات التكميلية",
+    "subtitle": "Complementary Services",
+    "description": "باقة متنوعة من الخدمات التكميلية الفاخرة التي تضيف لمسات إبداعية مميزة لمناسباتكم وفعالياتكم.",
+    "icon": "❋",
+    "heroImage": "https://images.unsplash.com/photo-1769812343266-323d6b508f24?w=1080&q=80",
+    "services": [
+      {
+        "id": "calligrapher",
+        "name": "خطاط",
+        "nameEn": "Calligrapher",
+        "description": "خطاطون محترفون لكتابة أسماء الضيوف والعبارات التراثية بخطوط عربية فاخرة على الهدايا والتوزيعات.",
+        "image": "https://images.unsplash.com/photo-1670351230643-27f874d17025?w=1080&q=80",
+        "features": [
+          "كتابة أسماء الضيوف بالخط العربي",
+          "تصميم عبارات ترحيبية مخصصة",
+          "خط على الهدايا والتوزيعات",
+          "عرض مباشر أثناء المناسبة"
+        ],
+        "outfits": [],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة الخطاط لمناسبتي."
+      },
+      {
+        "id": "artist",
+        "name": "رسام",
+        "nameEn": "Live Artist",
+        "description": "رسامون موهوبون لتقديم عروض رسم حية أثناء المناسبات ورسم بورتريهات للضيوف كهدايا تذكارية.",
+        "image": "https://images.unsplash.com/photo-1768508951405-10e83c4a2872?w=1080&q=80",
+        "features": [
+          "رسم بورتريهات حية للضيوف",
+          "عروض رسم إبداعية مباشرة",
+          "رسم كاريكاتير فوري",
+          "لوحات تذكارية للمناسبة"
+        ],
+        "outfits": [],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة الرسام لمناسبتي."
+      },
+      {
+        "id": "band",
+        "name": "فرقة",
+        "nameEn": "Musical Band",
+        "description": "فرق موسيقية متنوعة من العزف التراثي إلى الموسيقى الكلاسيكية لإضفاء أجواء خاصة على مناسباتكم.",
+        "image": "https://images.unsplash.com/photo-1720722023471-fbe5b68c3542?w=1080&q=80",
+        "features": [
+          "عزف تراثي سعودي",
+          "موسيقى كلاسيكية راقية",
+          "فرق استقبال موسيقية",
+          "عروض عود وطبل تقليدية"
+        ],
+        "outfits": [],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة الفرقة الموسيقية لمناسبتي."
+      },
+      {
+        "id": "tent",
+        "name": "خيمة",
+        "nameEn": "Luxury Tent",
+        "description": "خيام فاخرة بتصاميم تراثية وعصرية مجهزة بالكامل لإقامة مناسبات مميزة في الأماكن المفتوحة.",
+        "image": "https://images.unsplash.com/photo-1771830933605-ffbae3e3d1b5?w=1080&q=80",
+        "features": [
+          "خيام تراثية فاخرة",
+          "تجهيز كامل بالإضاءة والديكور",
+          "أنظمة تكييف وتدفئة",
+          "جلسات أرضية وكراسي فاخرة"
+        ],
+        "outfits": [],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة الخيمة لمناسبتي."
+      },
+      {
+        "id": "counter",
+        "name": "كاونتر",
+        "nameEn": "Service Counter",
+        "description": "كاونترات تقديم فاخرة بتصاميم عصرية مجهزة بالكامل لعرض وتقديم المشروبات والحلويات.",
+        "image": "https://images.unsplash.com/photo-1771499194141-329333b53841?w=1080&q=80",
+        "features": [
+          "كاونترات بتصاميم حديثة",
+          "إضاءة LED مميزة",
+          "أنظمة تبريد مدمجة",
+          "تخصيص التصميم حسب المناسبة"
+        ],
+        "outfits": [],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة الكاونتر لمناسبتي."
+      },
+      {
+        "id": "buffet",
+        "name": "بوفيه",
+        "nameEn": "Buffet Setup",
+        "description": "تجهيز بوفيهات فاخرة بتصاميم متنوعة وعرض أنيق للأطعمة والمشروبات في المناسبات والفعاليات.",
+        "image": "https://images.unsplash.com/photo-1769812343266-323d6b508f24?w=1080&q=80",
+        "features": [
+          "تصميم بوفيه مخصص",
+          "عرض أنيق للأطعمة",
+          "أدوات تقديم فاخرة",
+          "تنسيق الديكور والإضاءة"
+        ],
+        "outfits": [],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة البوفيه لمناسبتي."
+      },
+      {
+        "id": "mobile-table",
+        "name": "طاولة متنقلة",
+        "nameEn": "Mobile Serving Table",
+        "description": "طاولات متنقلة أنيقة لتقديم المشروبات والحلويات مباشرة للضيوف في أي مكان داخل المناسبة.",
+        "image": "https://images.unsplash.com/photo-1771830933605-ffbae3e3d1b5?w=1080&q=80",
+        "features": [
+          "طاولات بعجلات فاخرة",
+          "تصاميم ذهبية وفضية",
+          "مناسبة لجميع أنواع التقديمات",
+          "سهلة التنقل والتوزيع"
+        ],
+        "outfits": [],
+        "whatsappMessage": "مرحباً، أود الاستفسار عن خدمة الطاولة المتنقلة لمناسبتي."
+      }
+    ]
+  }
+}

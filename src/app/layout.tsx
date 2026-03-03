@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Sans_Arabic, Amiri } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/shared/Header";
+import Footer from "@/components/shared/Footer";
 
 const ibmPlexArabic = IBM_Plex_Sans_Arabic({
   subsets: ["arabic"],
@@ -160,7 +162,11 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
       </head>
       <body className="antialiased bg-background text-foreground font-sans">
-        {children}
+        <div className="min-h-screen bg-[#1a1a1a] text-[#F5F5DC]" dir="rtl" style={{ fontFamily: "'IBM Plex Sans Arabic', 'IBM Plex Sans', sans-serif" }}>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </div>
         
         {/* Service Worker Registration */}
         <script

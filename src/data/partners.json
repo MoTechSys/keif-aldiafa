@@ -1,0 +1,52 @@
+{
+  "partners": [
+    {
+      "id": "alrajhi",
+      "name": "شركة الراجحي",
+      "nameEn": "Al Rajhi Company",
+      "logo": "/images/services/partners/alrajhi.svg"
+    },
+    {
+      "id": "aramco",
+      "name": "أرامكو السعودية",
+      "nameEn": "Saudi Aramco",
+      "logo": "/images/services/partners/aramco.svg"
+    },
+    {
+      "id": "binladin",
+      "name": "مجموعة بن لادن",
+      "nameEn": "Bin Laden Group",
+      "logo": "/images/services/partners/binladin.svg"
+    },
+    {
+      "id": "ritz",
+      "name": "فندق الريتز كارلتون",
+      "nameEn": "The Ritz-Carlton",
+      "logo": "/images/services/partners/ritz.svg"
+    },
+    {
+      "id": "airport",
+      "name": "مطار الملك عبدالعزيز",
+      "nameEn": "King Abdulaziz Airport",
+      "logo": "/images/services/partners/airport.svg"
+    },
+    {
+      "id": "film",
+      "name": "هيئة الأفلام",
+      "nameEn": "Film Commission",
+      "logo": "/images/services/partners/film.svg"
+    },
+    {
+      "id": "riyadh-season",
+      "name": "موسم الرياض",
+      "nameEn": "Riyadh Season",
+      "logo": "/images/services/partners/riyadh-season.svg"
+    },
+    {
+      "id": "neom",
+      "name": "نيوم",
+      "nameEn": "NEOM",
+      "logo": "/images/services/partners/neom.svg"
+    }
+  ]
+}
